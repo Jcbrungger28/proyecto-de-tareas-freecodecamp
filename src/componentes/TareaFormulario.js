@@ -28,7 +28,7 @@ function TareaForumulario(props){
     return(
       <form
        className="tarea-formulario"
-       onSubmit={manejarEnvio}>
+       onSubmit={manejarEnvio} >
         <input
         className='tarea-input'
         type='text'
@@ -37,7 +37,7 @@ function TareaForumulario(props){
         onChange={manejarCambio}
         />
 
-        <button className='tarea-boton'>
+        <button className='tarea-boton' >
           Agregar Tarea
         </button>
       </form>

@@ -9,7 +9,7 @@ function App() {
     <div className='aplicacion-tareas'>
       <div className='freecodecamp-logo-contenedor'>
         <img src={freecodecampLogo}
-        className='freecodecamp-logo' />
+        className='freecodecamp-logo'/>
       </div>
       <div className='tareas-lista-principal'>
           <h1>Mis Tareas</h1>
